@@ -1,0 +1,26 @@
+﻿/*Background image for the homepage*/
+.backgroundImage {
+    background-image: url('../img/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+/*Background image for the about page*/
+.backgroundImage1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+p {
+    color: black;
+}
+
+#marginTop {
+    margin-top: 10%;
+}
+
+#marginBottom {
+    margin-bottom: 10%;
+}

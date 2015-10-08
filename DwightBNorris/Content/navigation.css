@@ -5,8 +5,8 @@
 
 /* Sets up the centering of the navigation text */
 
-.navbar .nav,
-.navbar .nav > li {
+.navbar-default .nav,
+.navbar-default .nav > li {
   float: none;
   display: inline-block;
   *display: inline; /* ie7 fix */
@@ -17,4 +17,8 @@
 /* Actually centers the text */
 .navbar-middle {
     text-align: center;
+}
+
+#navText {
+    color: white;
 }
