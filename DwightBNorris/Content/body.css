@@ -2,7 +2,7 @@
 .backgroundImage {
     background-image: url('../img/background1.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 
 }
 
@@ -13,8 +13,8 @@
 
 }
 
-p {
-    color: black;
+.textWhite {
+    color: white;
 }
 
 #marginTop {
@@ -23,4 +23,24 @@ p {
 
 #marginBottom {
     margin-bottom: 10%;
+}
+
+#marginTop2 {
+    margin-top: 5%;
+}
+
+img {
+          display: block;
+          height: auto;
+          max-width: 100%;
+   }
+
+.personalImage img {
+    max-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nameImage img {
+    max-height: 30px;
 }
