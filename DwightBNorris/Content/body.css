@@ -44,3 +44,7 @@ img {
 .nameImage img {
     max-height: 30px;
 }
+
+.border1 {
+    border: solid;
+}
