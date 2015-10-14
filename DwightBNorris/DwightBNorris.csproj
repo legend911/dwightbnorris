@@ -67,7 +67,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="blog.php" />
     <Content Include="certifications.html" />
+    <Content Include="contact.php" />
     <Content Include="Content\body.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -106,6 +108,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="blog\" />
     <Folder Include="files\" />
   </ItemGroup>
   <PropertyGroup>

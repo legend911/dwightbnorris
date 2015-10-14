@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/navigation.css" rel="stylesheet" />
+    <link href="Content/body.css" rel="stylesheet" />
+    <title>Blog</title>
+</head>
+<body>
+    <nav class="navbar-default" role="navigation">
+        <div class="container-fluid navbar-middle">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav nameImage">
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li id="navCenter"><a href="index.html"><img src="img/name1.png" /></a></a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container-fluid" id="marginTop2">
+        <div class="row">
+           <div class="col-xs-8">
+			   <h1>Blog - <a href="blog/wp-login.php" class="btn btn-primary">Admin Login</a></h1>
+
+			   <?php
+				require('blog/wp-blog-header.php');
+				?>
+
+				<?php
+				$posts = get_posts('numberposts=10&order=ASC&orderby=post_title');
+				foreach ($posts as $post) : setup_postdata( $post ); ?>
+				<div class="date"><?php the_date(); echo "<br />"; ?></div>
+				<div class="title"><?php the_title(); ?></div>
+				<?php the_excerpt(); ?> 
+				<?php
+				endforeach;
+				?>
+		   </div>
+
+		   <div class="col-xs-4">
+
+		   </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+
+<footer>
+    <div class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-text pull-left">
+                Copyright ©2015 DwightBNorris.com | by Dwight Norris | All Rights Reserved
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

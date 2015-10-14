@@ -29,6 +29,10 @@
     margin-top: 5%;
 }
 
+#marginTop3 {
+    margin-top: 2%;
+}
+
 img {
           display: block;
           height: auto;
@@ -46,5 +50,14 @@ img {
 }
 
 .border1 {
-    border: solid;
+    border: solid thin;
+}
+
+.date {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.title {
+    font-weight: bold;
 }
