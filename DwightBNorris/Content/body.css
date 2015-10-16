@@ -18,11 +18,11 @@
 }
 
 #marginTop {
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 #marginBottom {
-    margin-bottom: 10%;
+    margin-bottom: 30%;
 }
 
 #marginTop2 {
@@ -60,4 +60,8 @@ img {
 
 .title {
     font-weight: bold;
+}
+
+.responsive-width {
+    font-size: 1vw;
 }
