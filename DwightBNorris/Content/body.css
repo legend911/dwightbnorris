@@ -8,9 +8,9 @@
 
 /*Background image for the about page*/
 .backgroundImage1 {
+    background-image: url('../img/background2(50).jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .textWhite {
@@ -18,11 +18,7 @@
 }
 
 #marginTop {
-    margin-top: 20%;
-}
-
-#marginBottom {
-    margin-bottom: 30%;
+    margin-top: 10%;
 }
 
 #marginTop2 {
@@ -32,6 +28,16 @@
 #marginTop3 {
     margin-top: 2%;
 }
+
+#marginBottom {
+    margin-bottom: 20%;
+}
+
+#padding {
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
 
 img {
           display: block;
