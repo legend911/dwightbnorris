@@ -39,8 +39,9 @@
 
     <div class="container-fluid" id="marginTop2">
         <div class="row">
-           <div class="col-xs-8">
-			   <h1>Blog - <a href="blog/wp-login.php" class="btn btn-primary">Admin Login</a></h1>
+			<div class="col-xs-2"></div>
+			<div class="col-xs-8">
+			   <h1 class="text-center">Blog - <a href="blog/wp-login.php" class="btn btn-primary">Admin Login</a></h1>
 
 			   <?php
 				require('blog/wp-blog-header.php');
@@ -51,13 +52,13 @@
 				foreach ($posts as $post) : setup_postdata( $post ); ?>
 				<div class="date"><?php the_date(); echo "<br />"; ?></div>
 				<div class="title"><?php the_title(); ?></div>
-				<?php the_excerpt(); ?> 
+				<?php the_content(); ?> 
 				<?php
 				endforeach;
 				?>
 		   </div>
 
-		   <div class="col-xs-4">
+		   <div class="col-xs-2">
 
 		   </div>
         </div>

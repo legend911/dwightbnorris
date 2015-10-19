@@ -59,15 +59,19 @@ img {
     border: solid thin;
 }
 
+
+/* CSS changes for the Blog */
 .date {
     font-weight: bold;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .title {
     font-weight: bold;
+    font-size: larger;
 }
 
+/* Make Buttons Responsive*/
 .responsive-width {
     font-size: 1vw;
 }
