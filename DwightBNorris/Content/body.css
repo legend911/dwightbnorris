@@ -13,6 +13,7 @@
     background-size: cover;
 }
 
+
 .textWhite {
     color: white;
 }
@@ -44,6 +45,11 @@ img {
           height: auto;
           max-width: 100%;
    }
+
+#img {
+    border-color: lightgrey;
+    border: ridge;
+}
 
 .personalImage img {
     max-height: 700px;
