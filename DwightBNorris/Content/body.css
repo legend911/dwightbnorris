@@ -13,6 +13,9 @@
     background-size: cover;
 }
 
+#backgroundColorJumbotron {
+    background-color: lightgray;
+}
 
 .textWhite {
     color: white;

@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="airtestpro.html" />
     <Content Include="blog.php" />
     <Content Include="certifications.html" />
     <Content Include="contact.php" />
