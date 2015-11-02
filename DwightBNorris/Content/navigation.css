@@ -9,6 +9,12 @@
     .navbar-collapse {
         text-align: center;
     }
+
+    /*Changes color of hover navigation links*/
+    .navbar-nav a:hover {
+        color: black;
+        font-weight: bold;
+    }
 }
 
 
@@ -18,7 +24,7 @@
 }
 
 .linkOpacity {
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 a {
