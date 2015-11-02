@@ -48,7 +48,7 @@
 				?>
 
 				<?php
-				$posts = get_posts('numberposts=10&order=ASC&orderby=post_title');
+				$posts = get_posts('numberposts=10');
 				foreach ($posts as $post) : setup_postdata( $post ); ?>
 				<div class="date"><?php the_date(); echo "<br />"; ?></div>
 				<div class="title"><?php the_title(); ?></div>
