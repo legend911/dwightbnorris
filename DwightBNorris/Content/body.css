@@ -1,6 +1,6 @@
 ﻿/*Background image for the homepage*/
 .backgroundImage {
-    background-image: url('../img/background1.jpg');
+    background-image: url('../img/background3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -21,6 +21,10 @@
     color: white;
 }
 
+.textBlack {
+    color: black;
+}
+
 #marginTop {
     margin-top: 10%;
 }
@@ -38,8 +42,8 @@
 }
 
 #padding {
-    padding-top: 10%;
-    padding-bottom: 20%;
+    padding-top: 25%;
+    padding-bottom: 15%;
 }
 
 
@@ -58,10 +62,6 @@ img {
     max-height: 700px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.nameImage img {
-    max-height: 30px;
 }
 
 .border1 {
