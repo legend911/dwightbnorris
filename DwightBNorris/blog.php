@@ -20,18 +20,17 @@
                     </button>
 
                 </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
+                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav nameImage">
-                        <li><a href="about.html" class="btn btn-primary linkOpacity">About Me</a></li>
-                        <li><a href="contact.php" class="btn btn-primary linkOpacity">Contact</a></li>
-                        <li><a href="blog.php" class="btn btn-primary linkOpacity">Blog</a></li>
-                        <li><a href="index.html"><img src="img/name2.png" /></a></li>
-                        <li><a href="resume.html" class="btn btn-primary linkOpacity">Resume</a></li>
-                        <li><a href="projects.html" class="btn btn-primary linkOpacity">Projects</a></li>
-                        <li><a href="certifications.html" class="btn btn-primary linkOpacity">Certifications</a></li>
-                    </ul>
-
+                    <div class="nav navbar-nav">
+                        <li><a href="index.html" class="textBlack">Home</a></li>
+                        <li><a href="about.html" class="textBlack">About Me</a></li>
+                        <li><a href="contact.php" class="textBlack">Contact</a></li>
+                        <li><a href="blog.php" class="textBlack">Blog</a></li>
+                        <li><a href="resume.html" class="textBlack">Resume</a></li>
+                        <li><a href="projects.html" class="textBlack">Projects</a></li>
+                        <li><a href="certifications.html" class="textBlack">Certifications</a></li>
+                    </div>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.column -->
         </div><!-- /.row -->
