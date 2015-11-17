@@ -91,7 +91,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     <link href="Content/navigation.css" rel="stylesheet" />
     <link href="Content/body.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
-    <title>Contact</title>
+    <title>Contact Me</title>
 </head>
 <body>
     <div class="container-fluid">
