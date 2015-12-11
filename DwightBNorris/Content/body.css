@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
 }
 
-/*Background image for the about page*/
+/*Black and White homepage*/
 .backgroundImage1 {
     background-image: url('../img/background3.jpg');
     background-repeat: no-repeat;
@@ -14,19 +14,31 @@
 .backgroundImage2 {
     background-image: url('../img/airtestpro3.png');
     background-repeat: no-repeat;
+}
 
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
 }
 
 body {
-    padding-bottom: 300px;
 }
+
 
 /*Footer*/
 footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+}
+
+footer1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:80px;
 }
 
 /*Homepage Code Links*/
